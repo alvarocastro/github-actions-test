@@ -1,0 +1,26 @@
+{
+  "name": "@alvarocastro/github-actions-test",
+  "version": "0.0.0-development",
+  "description": "Testing the power of github actions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarocastro/github-actions-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvarocastro/github-actions-test/issues"
+  },
+  "homepage": "https://github.com/alvarocastro/github-actions-test#readme",
+  "devDependencies": {
+    "ava": "^3.10.0",
+    "coveralls": "^3.1.0",
+    "nyc": "^15.1.0",
+    "semantic-release": "^17.1.2",
+    "xo": "^0.33.1"
+  }
+}
