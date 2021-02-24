@@ -10,8 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/alvarocastro/github-actions-test.git"
   },
-  "author": "",
-  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Alvaro Castro",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alvarocastro/github-actions-test/issues"
   },
