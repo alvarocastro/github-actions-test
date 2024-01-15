@@ -7,7 +7,8 @@
     "branches": [ "master", "next" ]
   },
   "scripts": {
-    "test": "xo && nyc ava"
+    "test": "xo && nyc ava",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
