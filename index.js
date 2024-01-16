@@ -14,6 +14,7 @@ const multiplicacion = function (a, b) {
 const division = function (a, b) {
 	return a / b;
 };
+
 */
 
 module.exports = {
