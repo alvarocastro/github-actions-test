@@ -13,6 +13,8 @@ test('Resta should subtract two numbers', t => {
 	t.is(resta(4, 1), 3);
 	t.is(resta(-1, 2), -3);
 	t.is(resta(3, -3), 6);
+
+	t.true(false);
 	// Removed case t.is(resta(0.1, 0.2), -0.1);
 });
 
