@@ -1,5 +1,5 @@
 const test = require('ava');
-const {suma, resta, division} = require('.');
+const {suma, resta} = require('.');
 
 test('Suma should add two numbers', t => {
 	t.is(suma(4, 1), 5);
@@ -13,12 +13,16 @@ test('Resta should subtract two numbers', t => {
 	t.is(resta(4, 1), 3);
 	t.is(resta(-1, 2), -3);
 	t.is(resta(3, -3), 6);
+
+	// Commented t.true(false);
 	// Removed case t.is(resta(0.1, 0.2), -0.1);
 });
 
+/* Removed test
 test('Division should divide numbers', t => {
 	t.is(division(4, 2), 2);
 	t.is(division(10, 4), 2.5);
 	t.is(division(0, 2), 0);
 	t.is(division(2, 0), Infinity);
 });
+*/

@@ -1,8 +1,11 @@
 {
-  "name": "@alvarocastro/github-actions-test",
+  "name": "@alvarocastro/github-actions-test-3",
   "version": "0.0.0-development",
   "description": "Testing the power of github actions.",
   "main": "index.js",
+  "release": {
+    "branches": [ "master", "next" ]
+  },
   "scripts": {
     "test": "xo && nyc ava"
   },
@@ -24,7 +27,6 @@
     "ava": "^3.10.0",
     "coveralls": "^3.1.0",
     "nyc": "^15.1.0",
-    "semantic-release": "^17.1.2",
     "xo": "^0.53.1"
   }
 }

@@ -10,8 +10,14 @@ const multiplicacion = function (a, b) {
 	return a * b;
 };
 
+/* Removed feature
 const division = function (a, b) {
 	return a / b;
 };
+*/
 
-module.exports = {suma, resta, multiplicacion, division};
+module.exports = {
+	suma,
+	resta,
+	multiplicacion
+};
