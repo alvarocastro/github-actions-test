@@ -1,5 +1,5 @@
-const test = require('ava');
-const {suma, resta} = require('.');
+import test from 'ava';
+import {suma, resta} from './index.js';
 
 test('Suma should add two numbers', t => {
 	t.is(suma(4, 1), 5);
