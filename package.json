@@ -3,6 +3,7 @@
   "version": "0.0.0-development",
   "description": "Testing the power of github actions.",
   "main": "index.js",
+  "type": "module",
   "release": {
     "branches": [ "master", "next" ]
   },
